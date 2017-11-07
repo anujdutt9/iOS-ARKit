@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AR_3D_Drawing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eRg-L5-cyl">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qXr-i9-rjO">
+                                <rect key="frame" x="161" y="597" width="36" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="6GZ-A6-Vug"/>
+                                    <constraint firstAttribute="height" constant="50" id="kvb-HJ-quk"/>
+                                </constraints>
+                                <state key="normal" title="Draw"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eRg-L5-cyl" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="SnZ-Kc-TQF"/>
+                            <constraint firstItem="eRg-L5-cyl" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="WLD-fR-eVi"/>
+                            <constraint firstItem="qXr-i9-rjO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="161" id="Z9d-p6-j6C"/>
+                            <constraint firstItem="eRg-L5-cyl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jyx-0f-MQ3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qXr-i9-rjO" secondAttribute="trailing" constant="178" id="q5a-bK-M8j"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qXr-i9-rjO" secondAttribute="bottom" constant="20" id="zR4-4J-jUJ"/>
+                            <constraint firstItem="eRg-L5-cyl" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="zpL-Uy-Av0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="draw" destination="qXr-i9-rjO" id="gsH-II-bdW"/>
+                        <outlet property="sceneView" destination="eRg-L5-cyl" id="0mu-hd-Mje"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>
