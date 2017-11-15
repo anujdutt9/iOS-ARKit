@@ -4,7 +4,7 @@
 
 # Requirements
 
-* XCode
+* XCode 9
 
 * iPhone [6/6S,7/7+/7 SE,8/8+, X]
 
