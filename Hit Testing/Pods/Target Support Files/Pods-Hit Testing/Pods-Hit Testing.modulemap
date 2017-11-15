@@ -1,0 +1,6 @@
+framework module Pods_Hit_Testing {
+  umbrella header "Pods-Hit Testing-umbrella.h"
+
+  export *
+  module * { export * }
+}
