@@ -14,8 +14,8 @@
 # Status
 
 
-| S.No. |        Project / Concept            |                          About                  |             Status       |
-| ----- | ----------------------------------- | ----------------------------------------------- | ------------------------ |
+| S.No. |        Project / Concept                        |                          About                  |             Status       |
+| ----- | ----------------------------------------------- | ----------------------------------------------- | ------------------------ |
 |  1.   |        World Tracking               | Intro to concepts of World Tracking in AR, placing objects at co-ordinates wrt Origin, Bezier Path etc.  | Completed  |
 |  2.   |        Default Geometries           | Placing default geometries like Sphere, Cylinder etc. wrt origin as well as wrt each other | Completed |
 |  3.   |        Custom Shapes                 | Intro to making custom shapes using co-ordinate system. | Completed |
