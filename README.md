@@ -27,3 +27,5 @@
 |  9.   |        Plane Detection              | **Project-3:** <br /> A simple application to detect Horizontal Planes and replace them with Lava. |  Completed |
 |  10.  |          Hit Testing                | **Project-4:** <br /> A simple game that places "JellyFish" or any custom 3-D object in 3-D space. Find it within 10 seconds, Tap on it and it appears again in a random location. |  Completed |
 |  11.  |         IKEA Clone App              | **Project-5:** <br /> A smart app to pick and place objects like Speakers, Cups, Vaces, Tables etc. in your home before buying and see how it looks when placed at certain places.  |  Completed  |
+|  12.  |         Vehicular Physics           | **Project-6:** <br /> A car driving game in AR. Drive the car forward or in reverse using Accelerometer data and tapping on the screen. The car moves on a Augmeted Concrete plane.  |   Completed   |
+|  13.  |         Distance Measurement        | **Project-7:** <br /> A smart app to calulate and display the distance between two points in AR.     |  Ongoing  |
