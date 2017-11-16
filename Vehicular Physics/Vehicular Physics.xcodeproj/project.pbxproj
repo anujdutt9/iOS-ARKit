@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31DC85881FBDE4F800A2E499 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DC85871FBDE4F800A2E499 /* AppDelegate.swift */; };
+		31DC858A1FBDE4F800A2E499 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DC85891FBDE4F800A2E499 /* ViewController.swift */; };
+		31DC858D1FBDE4F800A2E499 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31DC858B1FBDE4F800A2E499 /* Main.storyboard */; };
+		31DC858F1FBDE4F800A2E499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31DC858E1FBDE4F800A2E499 /* Assets.xcassets */; };
+		31DC85921FBDE4F800A2E499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31DC85901FBDE4F800A2E499 /* LaunchScreen.storyboard */; };
+		31DC859A1FBDF4FF00A2E499 /* Car.scn in Resources */ = {isa = PBXBuildFile; fileRef = 31DC85991FBDF4FF00A2E499 /* Car.scn */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31DC85841FBDE4F800A2E499 /* Vehicular Physics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vehicular Physics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DC85871FBDE4F800A2E499 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31DC85891FBDE4F800A2E499 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31DC858C1FBDE4F800A2E499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31DC858E1FBDE4F800A2E499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31DC85911FBDE4F800A2E499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31DC85931FBDE4F800A2E499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31DC85991FBDF4FF00A2E499 /* Car.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Car.scn; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31DC85811FBDE4F800A2E499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31DC857B1FBDE4F800A2E499 = {
+			isa = PBXGroup;
+			children = (
+				31DC85861FBDE4F800A2E499 /* Vehicular Physics */,
+				31DC85851FBDE4F800A2E499 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31DC85851FBDE4F800A2E499 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31DC85841FBDE4F800A2E499 /* Vehicular Physics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31DC85861FBDE4F800A2E499 /* Vehicular Physics */ = {
+			isa = PBXGroup;
+			children = (
+				31DC85871FBDE4F800A2E499 /* AppDelegate.swift */,
+				31DC85891FBDE4F800A2E499 /* ViewController.swift */,
+				31DC858B1FBDE4F800A2E499 /* Main.storyboard */,
+				31DC858E1FBDE4F800A2E499 /* Assets.xcassets */,
+				31DC85901FBDE4F800A2E499 /* LaunchScreen.storyboard */,
+				31DC85931FBDE4F800A2E499 /* Info.plist */,
+				31DC85991FBDF4FF00A2E499 /* Car.scn */,
+			);
+			path = "Vehicular Physics";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31DC85831FBDE4F800A2E499 /* Vehicular Physics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31DC85961FBDE4F800A2E499 /* Build configuration list for PBXNativeTarget "Vehicular Physics" */;
+			buildPhases = (
+				31DC85801FBDE4F800A2E499 /* Sources */,
+				31DC85811FBDE4F800A2E499 /* Frameworks */,
+				31DC85821FBDE4F800A2E499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vehicular Physics";
+			productName = "Vehicular Physics";
+			productReference = 31DC85841FBDE4F800A2E499 /* Vehicular Physics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31DC857C1FBDE4F800A2E499 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Anuj Dutt";
+				TargetAttributes = {
+					31DC85831FBDE4F800A2E499 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 31DC857F1FBDE4F800A2E499 /* Build configuration list for PBXProject "Vehicular Physics" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31DC857B1FBDE4F800A2E499;
+			productRefGroup = 31DC85851FBDE4F800A2E499 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31DC85831FBDE4F800A2E499 /* Vehicular Physics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31DC85821FBDE4F800A2E499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DC859A1FBDF4FF00A2E499 /* Car.scn in Resources */,
+				31DC85921FBDE4F800A2E499 /* LaunchScreen.storyboard in Resources */,
+				31DC858F1FBDE4F800A2E499 /* Assets.xcassets in Resources */,
+				31DC858D1FBDE4F800A2E499 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31DC85801FBDE4F800A2E499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31DC858A1FBDE4F800A2E499 /* ViewController.swift in Sources */,
+				31DC85881FBDE4F800A2E499 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31DC858B1FBDE4F800A2E499 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31DC858C1FBDE4F800A2E499 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31DC85901FBDE4F800A2E499 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31DC85911FBDE4F800A2E499 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31DC85941FBDE4F800A2E499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31DC85951FBDE4F800A2E499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31DC85971FBDE4F800A2E499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J76NR74T6;
+				INFOPLIST_FILE = "Vehicular Physics/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anuj.drivevehicle.Vehicular-Physics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31DC85981FBDE4F800A2E499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J76NR74T6;
+				INFOPLIST_FILE = "Vehicular Physics/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anuj.drivevehicle.Vehicular-Physics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31DC857F1FBDE4F800A2E499 /* Build configuration list for PBXProject "Vehicular Physics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DC85941FBDE4F800A2E499 /* Debug */,
+				31DC85951FBDE4F800A2E499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31DC85961FBDE4F800A2E499 /* Build configuration list for PBXNativeTarget "Vehicular Physics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31DC85971FBDE4F800A2E499 /* Debug */,
+				31DC85981FBDE4F800A2E499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31DC857C1FBDE4F800A2E499 /* Project object */;
+}
