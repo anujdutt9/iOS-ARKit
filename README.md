@@ -31,3 +31,4 @@
 |  13.  |         Distance Measurement        | **Project-7:** <br /> A smart app to calulate and display the distance between two points in AR.     |  Completed  |
 |  14.  |        AR Portal                    | **Project-8:** <br /> Enter a new dimension using this app. This app forms a AR Portal which you can enter into and experience beign in a different world.   |    Completed  |
 |  15.  |        AR Shooter                   | **Project-9:** <br /> An AR shooting app. The aim is to shoot all the objects present in the front by tapping on the screen. The tap fires a bullet in the front.      |    Completed  |
+|  16.  |        AR Hoops                     | **Project-10:** <br /> An app to play Basketball in AR. Tap on the screen to throw a basketball into the basket.     |    Completed   |
