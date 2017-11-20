@@ -8,13 +8,14 @@
 
 import UIKit
 import ARKit
-class ViewController: UIViewController {
+class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet weak var distance: UILabel!
     @IBOutlet weak var sceneView: ARSCNView!
     @IBOutlet weak var xlabel: UILabel!
     @IBOutlet weak var ylabel: UILabel!
     @IBOutlet weak var zlabel: UILabel!
+    var startingPosition: SCNNode?
     
     let configuration = ARWorldTrackingConfiguration()
     override func viewDidLoad() {
@@ -25,6 +26,7 @@ class ViewController: UIViewController {
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(handleTap))
         // Whenever you tap on scene View, thsi function gets executed
         self.sceneView.addGestureRecognizer(tapGestureRecognizer)
+        self.sceneView.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -38,6 +40,12 @@ class ViewController: UIViewController {
         guard let sceneView = sender.view as? ARSCNView else {return}
         // Use current frame information to place object in front of camera
         guard let currentFrame  = sceneView.session.currentFrame else {return}
+        // If tapped again on the screen and distance is not null, then stop measuring and remove the starting position node
+        if self.startingPosition != nil{
+            self.startingPosition?.removeFromParentNode()
+            self.startingPosition = nil
+            return
+        }
         // This gives us info about current position, orientation and imaging parameters of the camera
         // This info is presen in a transform matrix
         let camera = currentFrame.camera
@@ -53,6 +61,38 @@ class ViewController: UIViewController {
         // Make the node to be positioned exactly where the phone is present by making the transform matrix of the node equal to that of the camera
         sphere.simdTransform = modifiedMatrix
         self.sceneView.scene.rootNode.addChildNode(sphere)
+        self.startingPosition = sphere
+    }
+    
+    // Gets called once per frame
+    func renderer(_ renderer: SCNSceneRenderer, updateAtTime time: TimeInterval) {
+        // Update Labels with distance travelled by the node
+        // Only move forward if the user tapped on the sceneView and we have a starting position node
+        guard let startingPosition = self.startingPosition else {return}
+        // Get current camera location
+        guard let pointOfView = self.sceneView.pointOfView else {return}
+        // Get the Transform matrix
+        let transform = pointOfView.transform
+        // Get the current location of the phone from origin
+        let location = SCNVector3(transform.m41,transform.m42,transform.m43)
+        // Subtract current location of phone by the starting point, we get the actual distance travelled
+        let xDistance = location.x - startingPosition.position.x
+        let yDistance = location.y - startingPosition.position.y
+        let zDistance = location.z - startingPosition.position.z
+        
+        // Update the Labels in the Main Thread
+        DispatchQueue.main.async {
+            self.xlabel.text = String(format: "%.2f",xDistance) + "m"
+            self.ylabel.text = String(format: "%.2f",yDistance) + "m"
+            self.zlabel.text = String(format: "%.2f",zDistance) + "m"
+            // Diagonal Distance Travelled
+            self.distance.text = String(format: "%.2f",self.distanceTravelled(x: xDistance, y: yDistance, z: zDistance)) + "m"
+        }
+    }
+    
+    // Function to Measure the Diagonal Distance
+    func distanceTravelled(x: Float, y: Float, z: Float) -> Float {
+        return (sqrtf(pow(x, 2) + pow(y, 2) + pow(z, 2)))
     }
 
 }
