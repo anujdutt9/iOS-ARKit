@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D6E743732B543A6B4AACD0B /* Pods_AR_Hoops.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 719B1568EC24E18ED7393DD3 /* Pods_AR_Hoops.framework */; };
+		31EB06621FC3173F0051077A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB06611FC3173F0051077A /* AppDelegate.swift */; };
+		31EB06641FC3173F0051077A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB06631FC3173F0051077A /* ViewController.swift */; };
+		31EB06671FC3173F0051077A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31EB06651FC3173F0051077A /* Main.storyboard */; };
+		31EB06691FC3173F0051077A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31EB06681FC3173F0051077A /* Assets.xcassets */; };
+		31EB066C1FC3173F0051077A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31EB066A1FC3173F0051077A /* LaunchScreen.storyboard */; };
+		31EB06741FC318F50051077A /* basketball.scn in Resources */ = {isa = PBXBuildFile; fileRef = 31EB06731FC318F50051077A /* basketball.scn */; };
+		31EB06761FC31A750051077A /* Basketball.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 31EB06751FC31A750051077A /* Basketball.scnassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31EB065E1FC3173F0051077A /* AR-Hoops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-Hoops.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31EB06611FC3173F0051077A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31EB06631FC3173F0051077A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31EB06661FC3173F0051077A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31EB06681FC3173F0051077A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31EB066B1FC3173F0051077A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31EB066D1FC3173F0051077A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31EB06731FC318F50051077A /* basketball.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = basketball.scn; path = Basketball.scnassets/basketball.scn; sourceTree = "<group>"; };
+		31EB06751FC31A750051077A /* Basketball.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Basketball.scnassets; sourceTree = "<group>"; };
+		719B1568EC24E18ED7393DD3 /* Pods_AR_Hoops.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AR_Hoops.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		865A99F9E0F40996B57D6756 /* Pods-AR-Hoops.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR-Hoops.release.xcconfig"; path = "Pods/Target Support Files/Pods-AR-Hoops/Pods-AR-Hoops.release.xcconfig"; sourceTree = "<group>"; };
+		F1CDA1E268F724A913F9F865 /* Pods-AR-Hoops.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR-Hoops.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AR-Hoops/Pods-AR-Hoops.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31EB065B1FC3173F0051077A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D6E743732B543A6B4AACD0B /* Pods_AR_Hoops.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30637C06816B7DEA21855C28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				719B1568EC24E18ED7393DD3 /* Pods_AR_Hoops.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31EB06551FC3173F0051077A = {
+			isa = PBXGroup;
+			children = (
+				31EB06601FC3173F0051077A /* AR-Hoops */,
+				31EB065F1FC3173F0051077A /* Products */,
+				BB2D3D437C6C73FFA84DCF7C /* Pods */,
+				30637C06816B7DEA21855C28 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31EB065F1FC3173F0051077A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31EB065E1FC3173F0051077A /* AR-Hoops.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31EB06601FC3173F0051077A /* AR-Hoops */ = {
+			isa = PBXGroup;
+			children = (
+				31EB06611FC3173F0051077A /* AppDelegate.swift */,
+				31EB06631FC3173F0051077A /* ViewController.swift */,
+				31EB06651FC3173F0051077A /* Main.storyboard */,
+				31EB06681FC3173F0051077A /* Assets.xcassets */,
+				31EB066A1FC3173F0051077A /* LaunchScreen.storyboard */,
+				31EB066D1FC3173F0051077A /* Info.plist */,
+				31EB06731FC318F50051077A /* basketball.scn */,
+				31EB06751FC31A750051077A /* Basketball.scnassets */,
+			);
+			path = "AR-Hoops";
+			sourceTree = "<group>";
+		};
+		BB2D3D437C6C73FFA84DCF7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1CDA1E268F724A913F9F865 /* Pods-AR-Hoops.debug.xcconfig */,
+				865A99F9E0F40996B57D6756 /* Pods-AR-Hoops.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31EB065D1FC3173F0051077A /* AR-Hoops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31EB06701FC3173F0051077A /* Build configuration list for PBXNativeTarget "AR-Hoops" */;
+			buildPhases = (
+				FAF9E70EBBD0462FAB127E22 /* [CP] Check Pods Manifest.lock */,
+				31EB065A1FC3173F0051077A /* Sources */,
+				31EB065B1FC3173F0051077A /* Frameworks */,
+				31EB065C1FC3173F0051077A /* Resources */,
+				3AA2A5C58A5313773F1C5534 /* [CP] Embed Pods Frameworks */,
+				50BEF363DB1433D88C1CB4EE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR-Hoops";
+			productName = "AR-Hoops";
+			productReference = 31EB065E1FC3173F0051077A /* AR-Hoops.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31EB06561FC3173F0051077A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Anuj Dutt";
+				TargetAttributes = {
+					31EB065D1FC3173F0051077A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 31EB06591FC3173F0051077A /* Build configuration list for PBXProject "AR-Hoops" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31EB06551FC3173F0051077A;
+			productRefGroup = 31EB065F1FC3173F0051077A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31EB065D1FC3173F0051077A /* AR-Hoops */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31EB065C1FC3173F0051077A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31EB06761FC31A750051077A /* Basketball.scnassets in Resources */,
+				31EB066C1FC3173F0051077A /* LaunchScreen.storyboard in Resources */,
+				31EB06741FC318F50051077A /* basketball.scn in Resources */,
+				31EB06691FC3173F0051077A /* Assets.xcassets in Resources */,
+				31EB06671FC3173F0051077A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AA2A5C58A5313773F1C5534 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AR-Hoops/Pods-AR-Hoops-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Each/Each.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Each.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AR-Hoops/Pods-AR-Hoops-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50BEF363DB1433D88C1CB4EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AR-Hoops/Pods-AR-Hoops-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAF9E70EBBD0462FAB127E22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AR-Hoops-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31EB065A1FC3173F0051077A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31EB06641FC3173F0051077A /* ViewController.swift in Sources */,
+				31EB06621FC3173F0051077A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31EB06651FC3173F0051077A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31EB06661FC3173F0051077A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31EB066A1FC3173F0051077A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31EB066B1FC3173F0051077A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31EB066E1FC3173F0051077A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31EB066F1FC3173F0051077A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31EB06711FC3173F0051077A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1CDA1E268F724A913F9F865 /* Pods-AR-Hoops.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J76NR74T6;
+				INFOPLIST_FILE = "AR-Hoops/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anuj.hoops.AR-Hoops";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31EB06721FC3173F0051077A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 865A99F9E0F40996B57D6756 /* Pods-AR-Hoops.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J76NR74T6;
+				INFOPLIST_FILE = "AR-Hoops/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anuj.hoops.AR-Hoops";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31EB06591FC3173F0051077A /* Build configuration list for PBXProject "AR-Hoops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31EB066E1FC3173F0051077A /* Debug */,
+				31EB066F1FC3173F0051077A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31EB06701FC3173F0051077A /* Build configuration list for PBXNativeTarget "AR-Hoops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31EB06711FC3173F0051077A /* Debug */,
+				31EB06721FC3173F0051077A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31EB06561FC3173F0051077A /* Project object */;
+}
