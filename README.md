@@ -28,4 +28,6 @@
 |  10.  |          Hit Testing                | **Project-4:** <br /> A simple game that places "JellyFish" or any custom 3-D object in 3-D space. Find it within 10 seconds, Tap on it and it appears again in a random location. |  Completed |
 |  11.  |         IKEA Clone App              | **Project-5:** <br /> A smart app to pick and place objects like Speakers, Cups, Vaces, Tables etc. in your home before buying and see how it looks when placed at certain places.  |  Completed  |
 |  12.  |         Vehicular Physics           | **Project-6:** <br /> A car driving game in AR. Drive the car forward or in reverse using Accelerometer data and tapping on the screen. The car moves on a Augmeted Concrete plane.  |   Completed   |
-|  13.  |         Distance Measurement        | **Project-7:** <br /> A smart app to calulate and display the distance between two points in AR.     |  Ongoing  |
+|  13.  |         Distance Measurement        | **Project-7:** <br /> A smart app to calulate and display the distance between two points in AR.     |  Completed  |
+|  14.  |        AR Portal                    | **Project-8:** <br /> Enter a new dimension using this app. This app forms a AR Portal which you can enter into and experience beign in a different world.   |    Completed  |
+|  15.  |        AR Shooter                   | **Project-9:** <br /> An AR shooting app. The aim is to shoot all the objects present in the front by tapping on the screen. The tap fires a bullet in the front.      |    Completed  |
