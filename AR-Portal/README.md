@@ -27,4 +27,17 @@
 
 Here's a quick demo of how this app works:
 
+<img src="Demo/ARPortal.gif" width="300">
 
+Here's a second demo of this app using "cubemap" made from a beach scene:
+
+<img src="Demo/BeachPortal.gif" width="300">
+
+# Video Links
+## AR-Portal
+
+[![AR-Portal](https://img.youtube.com/vi/eizrDT7lDrg/0.jpg)](https://www.youtube.com/watch?v=eizrDT7lDrg)
+
+
+## AR Beach Portal
+[![AR Beach Portal](https://img.youtube.com/vi/3WwHDUVHDJI/0.jpg)](https://www.youtube.com/watch?v=3WwHDUVHDJI)
